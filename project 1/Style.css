@@ -1,0 +1,52 @@
+body{
+    background-color: #fff;
+}
+header{
+    background: rgba(94, 154, 217, 1);
+    background: -moz-radial-gradient(center,ellipse cover,rgba(94,157,217,1)0%,rgba(43,106,173,1)100%);
+
+}
+#myCarousel1{
+    height: 100vh;
+}
+.item{
+    height: 100vh;
+    padding: 30px;
+}
+.item img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* height: 250px; */
+}
+.navbar{
+margin: 20px;
+background-color: rgba(0, 0, 0, .5);
+padding: 20px;
+border: 0;
+}
+.navbar-nav {
+    margin-right: 40px;
+}
+ .navbar-inverse.navbar-nav >.active>a{
+     background-color: rgba(0, 0, 0, .2);
+ }
+ .navbar-brand{
+     padding: 5px 0px;
+ }
+ .nav-pills{
+     margin-top: 40px;
+ }
+ /* Allows for centering of tabs and pills -just add centered class */
+ .nav-tabs.centered>li,
+ .nav-pills.centered>li{
+     float: none;
+     display: inline-block;
+     *display:inline
+ }
+ .nav-tabs.centered,
+ .nav-pills.centered{
+     text-align: center;
+ }
+
+ 
